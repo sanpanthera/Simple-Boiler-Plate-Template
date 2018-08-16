@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Github Bot</title>
+</head>
+
+<body>
+    <div class="container-fluid" id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-fixed navbar-dark bg-dark">
+            <i class="fa fa-github fa-4x" aria-hidden="true">
+                <a class="navbar-brand align-middle ml-4 display-4">Github Bot</a>
+            </i>
+        </nav>
+    </div>
+    <!-- Navbar Start-->
+
+    <div class="container-fluid " id="container">
+        <main class="row flex-column mx-0 mb-0 mt-5">
+                      
+            <div class="modal fade" id="tokenModal" data-keyboard="false" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="tokenModal"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Please enter below fields to proceed</h5>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="txtToken" class="col-form-label">Your Github Private Token:</label>
+                                    <input type="text" class="form-control" id="txtToken">
+
+                                    <label for="txtUserName" class="col-form-label">User Name:</label>
+                                    <input type="text" class="form-control" id="txtUserName">
+
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" id="btnSave">Enter</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="container-fluid fixed-bottom" id="footerId">
+        <footer>@ Copyright 2018</footer>
+    </div>
+</body>
+
+</html>
